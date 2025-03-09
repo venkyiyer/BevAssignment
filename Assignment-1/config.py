@@ -1,9 +1,9 @@
-directory_path = "Assignment-1/data1"
+directory_path = "Assignment-1/data"
 file_pattern = "md"
 separator_of_chunk= "\n"
 size_of_chunk = 1000
 overlap_of_chunk = 500
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
 name_of_collection = "vec_db"
-vector_store_path = "vector_store"
+vector_store_path = "./chroma_langchain_db"
 llm_temperature = 0
